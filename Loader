@@ -175,7 +175,7 @@ if (ValidateKey(service_name, key) or KeyBox.Text == "SecretZacs") then
     Frame.Visible = false
 game:GetService("StarterGui"):SetCore("SendNotification", {Title = "ZAC's HUB"; Text = "Valid Key!"; Icon = "rbxassetid://12815362293"; Duration = 5 })
 wait(2)
-loadstring(Game:HttpGet"https://raw.githubusercontent.com/ScuritySkull/ZacS-Hub/main/ZacsHub.lua")()
+loadstring(Game:HttpGet"https://raw.githubusercontent.com/ScuritySkull/ZacS-Hub/main/GameList")()
 
 
 
@@ -183,13 +183,13 @@ loadstring(Game:HttpGet"https://raw.githubusercontent.com/ScuritySkull/ZacS-Hub/
     Frame.Visible = false
 game:GetService("StarterGui"):SetCore("SendNotification", {Title = "ZAC's HUB"; Text = "Premium User! Thanks for buy Premium☕"; Icon = "rbxassetid://12815362293"; Duration = 5 })
 wait(2)
-loadstring(Game:HttpGet"https://raw.githubusercontent.com/ScuritySkull/ZacS-Hub/main/ZacsHub.lua")()
+loadstring(Game:HttpGet"https://raw.githubusercontent.com/ScuritySkull/ZacS-Hub/main/GameList")()
 
     elseif game.Players.LocalPlayer.Name == GiveawaysKey and KeyBox.Text == "Giveaways" then
     Frame.Visible = false
 game:GetService("StarterGui"):SetCore("SendNotification", {Title = "ZAC's HUB"; Text = "Giveaways Key🎉"; Icon = "rbxassetid://12815362293"; Duration = 5 })
 wait(2)
-loadstring(Game:HttpGet"https://raw.githubusercontent.com/ScuritySkull/ZacS-Hub/main/ZacsHub.lua")()
+loadstring(Game:HttpGet"https://raw.githubusercontent.com/ScuritySkull/ZacS-Hub/main/GameList")()
 
 
 else
